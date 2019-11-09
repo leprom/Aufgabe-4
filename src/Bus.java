@@ -1,3 +1,6 @@
-public class Bus {
-    private String name;
+public abstract class Bus extends OffTrack{
+
+    public Bus(){
+
+    }
 }

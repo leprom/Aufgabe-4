@@ -1,2 +1,4 @@
-public class Electrified {
+public interface Electrified {
+
+    int range();
 }
