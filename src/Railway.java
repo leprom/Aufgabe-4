@@ -1,4 +1,7 @@
 public abstract class Railway extends RailBound implements CombustionEngine {
+    /**
+     * Describes a trans-regional transport vehicle on tracks off the roads.
+     */
     @Override
     public int co2() {
         if(getMotor().equals("CombustionEngine")) return 0;

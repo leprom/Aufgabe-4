@@ -1,4 +1,10 @@
 public abstract class Transport {
+    /**
+     * Describes public transport vehicle.
+     * All vehicles are from this type!!!
+     * @return average number of passengers, energy and costs used for working process.
+     */
+
 
     private String motor;
     private String primaryenergy;

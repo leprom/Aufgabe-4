@@ -1,5 +1,7 @@
 public abstract class Tram extends RailBound implements GridBound{
-
+    /**
+     * Describes a mode of transport in the urban area on track. The drive is electric, the power supply via overhead lines.
+     */
 
     public Tram(String primaryEnergy){
         super.setMotor("Electro");

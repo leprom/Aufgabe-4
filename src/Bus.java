@@ -2,6 +2,11 @@ public abstract class Bus extends OffTrack implements Electrified{
 
 
 
+    /**
+     * Describes a non-rail transport vehicle for 9 or more passengers that usually runs via an internal combustion
+     * engine, in the urban area also purely electrically.
+     *
+     */
     // motor: CombustionEngine or Electro
     public Bus(String motor){
 
